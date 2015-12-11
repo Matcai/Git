@@ -46,6 +46,12 @@
 
 - git push -u origin master								#将本地内容推送到远程仓库上，master分支。
 
+- git remote set-url origin git@github.com:newname/repo.gig　　#更改url地址
+
+- git remote rename　　　　　　　#修改remote git仓库名字
+
+- git remote --help　　　　　　　#查看帮助
+
 
 ## 克隆远程仓库
 
@@ -67,4 +73,5 @@
 - git merge dev											# 将dev分支成果合并到master分支
 
 - git branch -d <name>									# 删除分支
+
 

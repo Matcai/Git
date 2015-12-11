@@ -75,3 +75,12 @@
 - git branch -d <name>									# 删除分支
 
 
+## 分支冲突解决
+
+#### 当不同用户提交分支不同内容时，出现冲突，需要进行合并。
+
+- git log --graph --pretty=oneline --abbrev-commit      # 查看分支合并情况
+
+- git branch -d dev　　　　　　　　　　　　　　　　　　# 将已合并的其他分支删除
+
+

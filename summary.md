@@ -66,6 +66,8 @@
 
 - git checkout dev										#切换到分支dev
 
+- git checkout --track origin/remotebranch              #切换远程分支并且复制到本地
+
 - 上面 git branch dev;git checkout dev;等同于 git checkout -b dev
 
 - git branch											# 查看当前的分支
